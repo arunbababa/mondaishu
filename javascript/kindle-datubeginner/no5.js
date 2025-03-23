@@ -14,3 +14,11 @@ function checkAlcoholIf(age){
 
 checkAlcoholIf(20)
 console.log(`あなたの場合はお酒は${checkAlcoholIf(20)}です`)
+
+// いや答え以下でそっちの方がすっきりだな
+function checkAlcoholIfLater(ag){
+    return ag >= 20 ? "OK" : "NG";
+}
+
+checkAlcoholIfLater(20)
+console.log(`あなたの場合はお酒は${checkAlcoholIfLater(20)}です`)
